@@ -27,7 +27,7 @@ def image_detection(draw=True
         cv.distoroyAllWindows()
 
 def webcam_detection(draw=False):
-    _model_path = '/home/ishwor/Desktop/TreeLeaf/yolov7/best (7).pt'
+    _model_path = '/home/ishwor/Downloads/Aug-8(.899).pt'
     yolov7_detector = YoloV7Detector(_model_path)
     vid_path='/home/ishwor/Videos/Monkey video/Studio_Project_V1.mp4'
     cap = cv.VideoCapture(0)

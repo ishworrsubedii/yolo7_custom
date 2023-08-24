@@ -80,9 +80,9 @@ class FrameSaver:
 
 
 
-if __name__ == '__main__':
-    source = 'rtsp://192.168.1.250:8080/h264_opus.sdp'
-    start_stop = FrameSaver(source)
-    start_stop.start_stream()
-    time.sleep(5)
-    start_stop.stop_stream()
+# if __name__ == '__main__':
+#     source = 'rtsp://192.168.1.250:8080/h264_opus.sdp'
+#     start_stop = FrameSaver(source)
+#     start_stop.start_stream()
+#     time.sleep(5)
+#     start_stop.stop_stream()
